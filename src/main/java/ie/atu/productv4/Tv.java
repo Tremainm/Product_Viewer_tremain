@@ -27,6 +27,7 @@ public class Tv extends Product{
         this.size = size;
     }
 
+
     @Override
     public String toString() {
         return super.toString() + "Made by " + manufacture + "\n" + "Size: " + size;
