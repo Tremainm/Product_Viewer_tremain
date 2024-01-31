@@ -3,12 +3,12 @@ package ie.atu.productv4;
 public class Tv extends Product{
 
     private String manufacture;
-    private int size;
+    private String size;
 
     public Tv() {
         super();
         manufacture = "";
-        size = 0;
+        size = "";
     }
 
     public String getManufacture() {
@@ -19,11 +19,11 @@ public class Tv extends Product{
         this.manufacture = manufacture;
     }
 
-    public int getSize() {
+    public String getSize() {
         return size;
     }
 
-    public void setSize(int size) {
+    public void setSize(String size) {
         this.size = size;
     }
 
